@@ -1,0 +1,143 @@
+.nav_article{
+    width: 100%;
+    background: black;
+}
+.nav_article a{
+    color: white;
+    font-size: 2em;
+}
+.nav_article a:hover{
+    background: #fcfcfc;
+    color:#000;
+}
+
+
+.productos{
+    padding: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient:horizontal;
+    -webkit-box-direction:normal;
+    -ms-flex-flow:row wrap;
+    flex-flow:row wrap;
+}
+.productos{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+.articulo_producto{
+    -webkit-box-flex:1;
+    -ms-flex:1 1 auto;
+    flex:1 1 auto;
+    width: 30%;
+    margin: 10px ;
+    padding: 0px;
+}
+
+.producto_article{
+                        background: url(../images/ejemplo.png);
+                        background-attachment: contain;
+                        background-position: center;
+                        background-size: cover;
+                        width: 200px;
+                         height: 200px;
+                        margin-top:-10px;
+                    -webkit-transition: .5s;
+                    transition: .5s;
+                	}/*fin image -padre unico*/
+ .producto_article:hover{
+                -webkit-transition: .5;
+                transition: .5;
+                    -webkit-transform: scale(1.3);
+                    transform: scale(1.3);
+                    opacity: 0.6;
+                }
+
+
+@media all and (max-width:500px){
+    .articulo_producto{
+        width: 100%;
+    }
+}
+.tazauno{
+    margin-top: 10px;
+ background: url(../images/articulos/Tazas_Mugs/taza_1.jpg);
+}
+.tazados{
+    margin-top: 10px;
+ background: url(../images/articulos/Tazas_Mugs/taza_2.jpg);
+}
+.tazatres{
+    margin-top: 10px;
+ background: url(../images/articulos/Tazas_Mugs/taza_3.jpeg);
+}
+.tazacuatro{
+    margin-top: 10px;
+ background: url(../images/articulos/Tazas_Mugs/taza_4.jpeg);
+}
+.tazacinco{
+    margin-top: 10px;
+ background: url(../images/articulos/Tazas_Mugs/taza_5.jpg);
+}
+.tazaseis{
+    margin-top: 10px;
+    background: url(../images/articulos/Tazas_Mugs/taza_6.jpg);
+}
+.tazasiete{
+    margin-top: 10px;
+    background: url(../images/articulos/Tazas_Mugs/taza_7.jpg);
+}
+.tazaocho{
+    margin-top: 10px;
+    background: url(../images/articulos/Tazas_Mugs/taza_8.jpg);
+}
+.tazanueve{
+    margin-top: 10px;
+    background: url(../images/articulos/Tazas_Mugs/taza_9.jpg);
+}
+.tazadiez{
+    margin-top: 10px;
+    background: url(../images/articulos/Tazas_Mugs/taza_10.jpg);
+}
+.tazaonce{
+    margin-top: 10px;
+    background: url(../images/articulos/Tazas_Mugs/taza_11.jpg);
+}
+.tazadoce{
+    margin-top: 10px;
+    background: url(../images/articulos/Tazas_Mugs/taza_12.jpg);
+}
+.tazatrece{
+    margin-top: 10px;
+    background: url(../images/articulos/Tazas_Mugs/taza_13.jpg);
+}
+.tazacatorce{
+    margin-top: 10px;
+    background: url(../images/articulos/Tazas_Mugs/taza_14.jpg);
+}
+.tazaquince{
+    margin-top: 10px;
+    background: url(../images/articulos/Tazas_Mugs/taza_15.jpg);
+}
+.tazaDieciseis{
+    margin-top: 10px;
+    background: url(../images/articulos/Tazas_Mugs/taza_16.jpg);
+}
+.imanuno{
+     margin-top: 10px;
+    background: url(../images/articulos/imanes_magnets/iman_1.jpg);
+}
+.imandos{
+     margin-top: 10px;
+    background: url(../images/articulos/imanes_magnets/iman_2.jpg);
+}
+.imantres{
+     margin-top: 10px;
+    background: url(../images/articulos/imanes_magnets/iman_3.jpg);
+}

@@ -1,0 +1,18 @@
+.categorias{
+   /* background: lightblue;*/
+}
+.volver{
+    font-family: 'Lora';
+    color: white;
+    border-bottom: 1px solid #fcfcfc;
+    margin:0px auto; 
+    text-align: center;
+  
+}
+.volver:hover{
+    color: #000;
+    border-bottom: 1px solid #000;
+}
+.productos{
+      background: none;
+}

@@ -1,0 +1,817 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+.foco{
+    border:3px solid red;
+}
+a{
+    
+    text-decoration: none;
+    color:black;
+}
+a:hover, a:active{
+    color:black;    
+}
+.logo{
+    font-size:1.7em;
+    color:#DFDCE3;
+}
+.padding{
+    padding: 10px;
+}
+.margin{
+    margin: 10px;
+}
+.header{/*AQUI COMENZAMOS NUETRO HEADER*/
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -ms-flex-flow:column wrap;
+    flex-flow:column wrap;
+    margin: 0px 0px; 
+      background: url(../images/fondos/background/contacto_3.jpg);
+}/*fin header */
+
+	.nav_header{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+        flex-flow: column wrap;
+        
+	}/*fin nav_header -padre*/
+        .top{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        }
+	    	.left{
+                -webkit-box-flex: 1;
+                -ms-flex: 1 1 auto;
+                flex: 1 1 auto;
+            
+		    }/*fin nav_header -hijo*/
+.left a{
+    font-family:'Allan';
+    font-size: 2em;
+    color:black;
+}
+.left a:hover{
+    color:#4ABDAC;
+}
+            .contactos{
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                width:auto;
+            }
+   .right{
+         -webkit-box-flex: 5;      
+         -ms-flex: 5 1 auto;      
+         flex: 5 1 auto;
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-orient:horizontal;
+              -webkit-box-direction:reverse;
+              -ms-flex-direction:row-reverse;
+              flex-direction:row-reverse;
+              
+          }
+                .right a{
+                    color:black;
+                }
+
+.facebook{
+        background: url(../Iconos/facebook_negro.png);
+            background-attachment: contain;
+        background-position: center;
+        background-size: cover;
+         width: 40px;
+        height: 40px;
+}
+.facebook:hover{
+    background: url(../Iconos/facebook_azul.png);
+         background-attachment: contain;
+        background-position: center;
+        background-size: cover;
+        width: 40px;
+        height: 40px;
+}
+
+
+
+		.bottom{
+			 background: #F78733;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: reverse;
+            -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+		}/*fin nav_header -hijo -padre*/
+        
+                .a_icon{
+                background: #4ABDAC; 
+                }/*fin a_icon -hijo*/
+
+
+	.nav_main{/*AQUI COMENZAMOS NUETRO MENU DE NAVEGACIÓN*/
+		background:url(../images/fondos/background/menu_navegacion_2.jpg);
+         display: -webkit-box;
+         display: -ms-flexbox;
+         display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        height: 40px;
+        width: 100%; 
+         padding: 0px;
+        margin: 0px;
+       /* text-align: right;*/
+	}/*fin nav_ main -padre*/
+
+        .list_display{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 100%;
+        }
+
+		.ul_main{
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+           -webkit-box-orient: horizontal;
+           -webkit-box-direction: normal;
+           -ms-flex-flow: row nowrap;
+           flex-flow: row nowrap;
+            list-style: none;
+            height: 40px;
+           /* width: 100%;*/
+            /*-webkit-box-pack:center;
+            -ms-flex-pack:center;
+            justify-content:center;*/
+            padding: 0px;
+                margin:0px;
+		}/*fin nav_header -hijo -padre*/
+
+			.li_main{
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+               padding: 0px;
+                margin:0px 5px;
+                height: 40px;
+         
+                
+			}/*fin nav_header -hijo -padre*/
+				.a_main{
+					/*background: coral;*/
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    /*-webkit-box-align: center;
+                    -ms-flex-align: center;
+                    align-items: center;
+                    -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                     justify-content: center;*/
+                    height: 40px;
+                    text-decoration: none;
+                    text-align: center;
+                    color:black;
+                    font-size: 2em;
+                    letter-spacing: 2px;
+                    width: 100%;
+                    font-weight: bolder;
+                        font-family:'Lora';
+				}/*fin a_main -hijo */
+                .a_main:hover, .a_main:active{color:#4ABDAC;}
+        .letter{
+           font-size: 2em; 
+            color: #DFDCE3;
+            display:none;
+        }
+        
+
+/*AQUI COMENZAMOS NUETRO MENU DE NAVEGACION DESPLEGABLE*/
+                
+	
+.wraper{/*AQUI COMENZAMOS NUETRO SECTION*/
+
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin: 10px 0px;
+}/*fin wraper*/
+
+	.main{ /*AQUI COMENZAMOS NUETRO MAIN ARTICLE*/
+	background:url(../images/fondos/background/PaperTexture_2.jpg);
+        -webkit-box-flex:1;
+        -ms-flex:1 1 auto;
+        flex:3 1 60%;
+        
+               display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+            -webkit-box-ordinal-group:3;
+        
+            -ms-flex-order:2;
+        
+            order:2;
+	}/*fin main -padre*/
+.categorias h2{
+     font-family:'Code';
+    text-align: center;
+    color: #fcfcfc;
+    font-size: 3em;
+}
+.articulos{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+
+		.article{
+                    width: 30%;
+                    -webkit-box-flex: 1;
+                    -ms-flex: 1 1 auto;
+                    flex: 1 1 auto;
+                    margin: 5px;
+                    letter-spacing: 1px;
+                    margin: 10px 10px 0px 0px;
+		}/*fin div_main*/
+                .center{
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                    justify-content: center;
+                    margin: 0px 0px;
+                    padding: 0px 0px;
+                    overflow: hidden;
+                } 
+
+                .image_article_d{
+                        background: url(../images/ejemplo.png);
+                        background-attachment: contain;
+                        background-position: center;
+                        background-size: cover;
+                        width: 200px;
+                        height: 200px;
+                        margin-top:-10px;
+                    -webkit-transition: .5s;
+                    transition: .5s;
+                	}/*fin image -padre unico*/
+.tazamugs{
+        margin-top: 10px;
+ background: url(../images/articulos/Tazas_Mugs/taza_4.jpeg);
+}
+.imanmagnets{
+     margin-top: 10px;
+     background: url(../images/articulos/imanes_magnets/iman_2.jpg);
+}
+
+                .article h3{
+                     font-weight: bolder;
+                    color:#000;
+                    font-size: 2em;
+                   text-align: center;
+                   padding: 10px 0px;
+                /*    background: black;*/
+                    
+                }
+                .description{
+                     color:#000;
+                     font-size: 13px;
+                     letter-spacing: 1px;
+                     margin-top:0px;
+                    font-family: 'Lora';
+                }
+                .image_article_d:hover{
+                -webkit-transition: .5;
+                transition: .5;
+                    -webkit-transform: scale(1.3);
+                    transform: scale(1.3);
+                    opacity: 0.6;
+                }
+	.aside{/*AQUI COMENZAMOS NUETRO MENU DE ARTICULOS AUNQUE LO TERMINAMOS QUITANDO*/
+        -webkit-box-flex:1;
+        -ms-flex:1 1 auto;
+        flex:1 3 auto;
+        -webkit-box-ordinal-group:2;
+        -ms-flex-order:1;
+        order:1;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+        flex-flow: column wrap;
+        margin: 20px;
+        padding: 0px;
+        
+	}/*fin del aside -padre*/
+
+.titulo{
+    background: url(../images/fondos/background/titulo.jpg);
+    height: 250px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -ms-flex-flow:column nowrap;
+    flex-flow:column nowrap;
+   -ms-flex-pack: distribute;
+   justify-content: space-around;
+-webkit-box-align: center;
+-ms-flex-align: center;
+align-items: center;
+    margin: 10px 10px  50px 10px;
+}
+.Genesis{
+    color: white;
+    font-family: 'Anton';
+    font-size: 3em;
+}
+.Art{
+     color: white;
+   /* font-family: 'Color';*/
+    font-size: 6em;
+}
+
+
+ .comentarios{/*aqui los usuarios puedes mandar informacion al correo de la persona*/
+        background: url(../images/fondos/background/wood192.jpg);
+     height: 400px;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+    }
+.mensaje_form{
+   width: 60%;
+}
+    .comentarios h3{
+        margin-bottom: 20px;
+        color: white;
+        width:100px;
+        height: 100px;
+        margin-bottom: 50px;
+        font-size: 1.3em;
+        letter-spacing: 1px;
+        font-family:  'Lora';
+    }
+    .mensaje{
+        resize: none;
+    }
+    .mensaje_btn{
+    height: 20px;
+    }
+
+.nowrap{/*aqui colocamos el menu de contactos*/
+     background: url(../images/fondos/background/contacto_3.jpg);
+    margin: 50px;    
+}
+.contactos{
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -ms-flex-flow:column wrap;
+    flex-flow:column wrap;
+}
+.titulo_contacto{
+     font-family:'Lora';
+    padding: 10px;
+    margin-left: 50px;
+    font-size: 2em;    
+}
+.contacto{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin: 10px 0px 10px 50px;
+    padding: 10px;
+}
+.contacto h3{
+    font-family:'Lora';
+    margin-left: 10px;
+    font-size: 1em; 
+}
+
+  .phone{
+        background: url(../Iconos/phone.png);
+            background-attachment: contain;
+        background-position: center;
+        background-size: cover;
+        width: 15px;
+        height: 15px;
+      
+    }
+  .email{
+        background: url(../Iconos/email.png);
+            background-attachment: contain;
+        background-position: center;
+        background-size: cover;
+        width: 15px;
+        height: 15px;
+      
+    }
+.direction{
+        background: url(../Iconos/home.png);
+            background-attachment: contain;
+        background-position: center;
+        background-size: cover;
+        width: 15px;
+        height: 15px;
+      
+    }
+
+.underwrap{
+    background: url(../images/fondos/background/quienes%20somos.jpg);
+    margin: 50px; 
+    padding: 50px;
+}
+.quienesSomos{
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -ms-flex-flow:column wrap;
+    flex-flow:column wrap;
+}
+.quienesSomos h2{
+    font-family:'Lora_B';
+    margin-left: 10px;
+    font-size: 2em;
+    padding: 10px;
+    color:#fcfcfc;
+}
+.quienesSomos p{
+    font-family:'Lora_B';
+    margin-left: 10px;
+    font-size: 1em; 
+        padding: 10px;
+    color:#fcfcfc;
+
+}
+.footer{/*AQUI COMENZAMOS NUETRO FOOTER*/
+    /*background:#FC4A1A;*/
+      height: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    margin-bottom: 10px;
+  
+}/*fin footer*/
+
+
+    .div_footer{
+         border-bottom: 1px solid black; 
+    }/*fin footer -hijo - padre*/
+        .small{
+            text-decoration: none;
+            color: #444;
+            margin: 0px 5px;
+            font-family:'Lora',fantasy;
+        }/*fin small -hijo */
+    small{    
+        font-family:'Lora',fantasy;
+    }/*fin small -hijo*/
+
+
+@media all and (max-width:900px){
+    .articulos{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .article{
+        width: 100%;
+        -webkit-box-flex:1;
+        -ms-flex:1 1 auto;
+        flex:1 1 auto;
+    }
+    .image h2{
+        font-size: 1.7em;
+    }
+     .a_main{
+        font-size: 1.5em;
+        text-align: center;
+    }    
+    
+        .div_aside{
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    
+      .a_article{
+        font-size: 1.5em;
+        text-align: center;
+    }    
+    .aside{
+        margin:10px;
+    }
+    .comentarios{
+     margin: 10px 20px;
+    }
+     .comentarios h3{
+        margin-bottom: 50px;
+    }
+    .categorias h2{
+    font-size: 2em;
+}
+
+}/*/fin del media 900*/
+
+@media all and (max-width:500px){
+    .top{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+        flex-flow: column wrap;
+        
+    }
+
+    .image h2{
+        font-size: 1.5em;
+    }
+
+ .comentarios{
+      margin: 0px;
+     padding: 0px;
+
+    }
+    .comentarios h3{
+        margin: 0px auto;
+        margin: 0px auto;
+    }
+         .comentarios h3{
+        margin-bottom: 50px;
+    }
+    .mesaje_form{
+             width:200px;
+    }
+    .titulo{
+        margin:25px;
+    }
+    
+    .wraper{
+        margin:0px;
+        padding: 0px;  
+    }
+    .main{
+        margin: 0px 10px 10px 10px;
+        
+    }
+    .aside{
+    width: 90%;
+    margin:0px;
+    margin: 10px 0px 10px 0px;    
+    }
+        
+    .bottom{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+        flex-flow: column wrap;
+    }
+  
+    .ul_main{
+        
+        display:none;
+        height: auto;
+    }
+    .li_main{
+        width: 80%;   
+    }
+    .pull{
+        font-weight: bolder;
+        width: 100%;
+        display: block;
+        position: relative;
+        text-align: left;
+        text-indent: 25px;
+        color: black;
+        border-bottom: solid 1px black;
+      font-family: 'anton';    
+    }
+    .pull:hover, .pull:active{
+       color:#4ABDAC;
+        
+        
+    }
+    .pull:after{
+        content: "";
+        background: url(../Iconos/menu_desplegable_hover.png);
+            background-attachment: contain;
+        background-position: center;
+        background-size: cover;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: 15px;
+        top:5px;
+    }
+    .pull:hover:after{
+     content: "";
+        background: url(../Iconos/menu_desplegable_blue.png);
+            background-attachment: contain;
+        background-position: center;
+        background-size: cover;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: 15px;
+        top:5px;
+    }
+    .nav_main{
+        height: auto;
+        border: 0px;
+        
+    }
+    .right{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .list_main{
+        width: 100%;
+    }
+    .list_display{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        border-bottom: solid 1px black;  
+    }
+    .ul_main{
+        -webkit-box-orient:vertical;
+        -webkit-box-direction:normal;
+        -ms-flex-flow:column nowrap;
+        flex-flow:column nowrap;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .li_main{
+        width: 100%;
+    }
+    .a_main{
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-line-pack: center;
+        align-content: center;
+    }
+    .nav_main li:hover > ul{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+              
+    }
+    .nav_main li:hover > ul li {
+        border-bottom: solid 1px black;
+    }
+    .nav_main li:hover > ul li a{
+        font-family: 'anton';
+    }  
+    .input_one{
+    width: 50%;    
+    }
+    
+    .a_article{
+        font-size: 1.5em;
+        text-align: center;
+    }  
+    .nowrap{
+    margin: 0px; 
+        margin: 10px;
+}
+.titulo_contacto{
+    margin-left: 20px;
+}
+.contacto{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    margin: 0px;
+    padding: 10px;
+}
+.contacto h3{
+    margin-left: 0px;
+}
+    .underwrap{
+            margin: 0px; 
+        margin: 10px;
+    }
+   .quienesSomos{
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -ms-flex-flow:column wrap;
+    flex-flow:column wrap;
+}
+.quienesSomos h2{
+    margin-left: 0px;
+    padding: 0px;
+}
+.quienesSomos p{
+    margin-left: 0px; 
+        padding: 0px;
+}
+    
+    .footer{
+        -webkit-box-orient:vertical;
+        -webkit-box-direction:normal;
+        -ms-flex-flow:column wrap;
+        flex-flow:column wrap;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .div_footer{
+         border-bottom: 1px solid black; 
+        display: -webkit-box; 
+        display: -ms-flexbox; 
+        display: flex;
+        -webkit-box-orient:vertical;
+        -webkit-box-direction:normal;
+        -ms-flex-flow:column nowrap;
+        flex-flow:column nowrap;
+    }/*fin footer -hijo - padre*/
+        .small{
+            text-decoration: none;
+            color: #444;
+            margin: 0px 5px;
+            font-family:'Lora',fantasy;
+        }/*fin small -hijo */
+    small{    
+        font-family:'Lora',fantasy;
+    }/*fin small -hijo*/
+}/*fin del media*/
+
+
+

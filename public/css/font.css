@@ -1,0 +1,47 @@
+
+@font-face{
+    font-family:'Chalk';
+    src:url(../font/Chalkduster.ttf);
+}
+@font-face{
+    font-family:'DK';
+    src:url(../font/DK_Crayon_Crumble.ttf);
+}
+@font-face{
+    font-family:'Lora';
+    src:url(../font/Lora-Regular.ttf);
+}
+@font-face{
+    font-family:'Color';
+    src:url(../font/Colored_Crayons.ttf);
+}
+@font-face{
+    font-family:'Dancing';
+    src:url(../font/DancingScript-Bold.ttf);
+}
+@font-face{
+    font-family:'Code';
+    src:url(../font/SourceCodePro-Regular.ttf);
+}
+@font-face{
+    font-family:'Code_Bs';
+    src:url(../font/SourceCodePro-Bold.ttf);
+}
+@font-face{
+    font-family:'Allan';
+    src:url(../font/Allan-Bold.ttf);
+}
+@font-face{
+    font-family:'Anton';
+    src:url(../font/Anton-Regular.ttf);
+}
+@font-face{
+    font-family:'Lora_B';
+    src:url(../font/Lora-Bold.ttf);
+}
+
+
+
+*{
+font-family: 'DK', 'Chalk',  'Color', 'Dancing', 'Lora', 'Arial' ;
+}
