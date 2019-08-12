@@ -19,12 +19,14 @@
                 if(!$existes){  
                     $passwordverifi=$this->compararContrasenas($password,$passwordrep);
                     if($passwordverifi){
-                    echo "la contrasena es igual";
                     $clave=password_hash($password,PASSWORD_DEFAULT);
                     $claverecuperacion=password_hash($passwordrecu,PASSWORD_DEFAULT);
                     $model->registrarUsuario($nombre,$nickname,$correo,$clave,$claverecuperacion);
-
-                    header('Location:?id=registrado');
+                    $query=$model->buscarid($nickname);
+                    foreach($query as $row){
+                        $id=$row['id_user'];
+                   }
+                    header('Location:?id=registrado&&cd='.$id);
                     exit;
                     } else{
                         echo "la contraseña no es igual";
@@ -33,26 +35,7 @@
                     echo "el usuario ya existe";
                 }
                 
-                
-                
-                /*$clave=password_hash($password,PASSWORD_DEFAULT);
-                $claverecuperacion=password_hash($passwordrecu,PASSWORD_DEFAULT);
-                $model->registrarUsuario($nombre,$nickname,$correo,$clave,$claverecuperacion);
-                $existenciaUsuario=$model->buscarUsuarioCorreo($nickname,$correo);//verificamos si el usuario ya existe
-                if($existenciaUsuario){//verificamos si la contraseña es igual
-                        $passwordverifi=$this->compararContrasenas($password,$passwordrep);
-                        if($passwordverifi){//registramos
-                            //R//insertar en la base de datos
-                            //$clave=password_hash($password,PASSWORD_DEFAULT);
-                            //$claverecuperacion=password_hash($passwordrecu,PASSWORD_DEFAULT);
-                            //$model->registrarUsuario($nombre,$nickname,$correo,$clave,$claverecuperacion);
-                        }else{
-                            //v//deberia lanzar un pequeño mensaje de error
-                        }
-                }else{
-                    //v//deberia lanzar un pequeño mensaje de error
                 }
-            */}
 
             $this->viewDefect("registrarse");
         }

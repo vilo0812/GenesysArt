@@ -13,6 +13,7 @@ class ControllerBase{
         require_once 'view/'.$vista.'View.php';
     }
     public function view($vista, $datos){/*V* pasas el nombre de la vista y array con datos y agarra el id asociativo y lo convierte en un indice */
+        $datos=$datos;
         require_once 'view/'.$vista.'View.php';
 
     }

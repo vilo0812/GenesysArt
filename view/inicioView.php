@@ -52,7 +52,7 @@
    <section class="wraper padding">
         <section class="main padding">
            <div class="categorias">
-               <h2>Categorias</h2>
+               <h2>Categorias<?php echo "$datos";?></h2>
            </div>
            <section class="articulos">
               <article class="article padding">

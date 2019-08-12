@@ -4,7 +4,10 @@
             parent::__construct();
         }
         public function registrado(){
-            $this->viewDefect("registrado");
+            if($_GET['cd']){
+                $datos=$_GET['cd'];
+                $this->view("registrado",$datos);
+            }
         }
     }
     $controller = new RegistradoController();

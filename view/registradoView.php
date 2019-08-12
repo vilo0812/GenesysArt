@@ -36,7 +36,7 @@
                <section class="formulario">
                     <p>felicidades usted ha sido registrado con exito, vuelva al menu principal para inciar sesión <br><a href="?id=home" style="color:blue;"> volver a inicio</a></p>
                     <br>
-                    <p>o inicie sesión directamente con este link <br><a href="?id=home" style="color:blue;"> iniciar sesión</a></p>
+                    <p>o inicie sesión directamente con este link <br><a href="?id=inicio&&cd=<?php echo "$datos";?>" style="color:blue;"> iniciar sesión</a></p>
                </section>
            </div>
            <section class="articulos">
