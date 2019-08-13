@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title><!--falta colocar el nombre de la paguina del cliente-->
+    <title>GenesysArt</title><!--falta colocar el nombre de la paguina del cliente-->
         <meta name="description" content="pagina de souvenirs"><!--missing content-->
         <meta name="autor" content="descritionde pagina separadas por comas"> <!--the author´s name is missing-->
         <meta name="keyword" content="descrition de pagina separadas por comas"><!--missing content-->
@@ -20,7 +20,6 @@
                       <div class="left"><a class="logo" href="">GenesisArts</a></div><!--una caja del logo-->
                       <div class="right">
                     
-                     <a href="#" class="facebook"></a>
                       
                       </div><!--una caja contenedora de los datos de los contactos-->
                   </div>

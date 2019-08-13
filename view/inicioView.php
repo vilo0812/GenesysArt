@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title><!--falta colocar el nombre de la paguina del cliente-->
+    <title>GenesysArt</title><!--falta colocar el nombre de la paguina del cliente-->
         <meta name="description" content="pagina de souvenirs"><!--missing content-->
         <meta name="autor" content="descritionde pagina separadas por comas"> <!--the author´s name is missing-->
         <meta name="keyword" content="descrition de pagina separadas por comas"><!--missing content-->
@@ -17,8 +17,6 @@
                  <div class="top">
                       <div class="left"><a class="logo" href="">GenesisArts</a></div><!--una caja del logo-->
                       <div class="right">
-                    
-                     <a href="#" class="facebook"></a>
                       
                       </div><!--una caja contenedora de los datos de los contactos-->
                   </div>
@@ -48,56 +46,22 @@
               </nav><!--aqui crearemos el navegador principal-->
        
    </header>
-
    <section class="wraper padding">
         <section class="main padding">
            <div class="categorias">
-               <h2>Categorias<?php echo "$datos";?></h2>
+               <h2>Categorias</h2>
+               <audio controls>
+               <source src="public/musica/musica.mp3">
+               </audio>
+               <video controls width="50%" height="500px">
+               <source src="public/video/video.mp4">
+               </video>
+               <a style="color:blue;"href="?id=home">ir a home</a>
+
+               <iframe src="public/guias/gimp.txt" name="centro" w="50" h="50"></iframe>
            </div>
            <section class="articulos">
-              <article class="article padding">
-             
-              <figure class="center padding">
-                   <a href="views/categorias/Arte_Religioso/producto_arte_religioso.php" class="image_article_d"></a>
-            
-              </figure><!--aqui ira la imagen de los tipos de articulos-->
-                  <h3 class="description">Arte religioso</h3> 
-           </article> <!--divs que contienen una imagen genereal de los links de las ventas que tendra la pagina-->
-           <article class="article padding">
-             
-              <figure class="center padding">
-                   <a href="views/categorias/Tazas_Mugs/producto_tazas_mugs.php" class="tazamugs image_article_d"></a>
-            
-              </figure><!--aqui ira la imagen de los tipos de articulos-->
-                  <h3 class="description">Tazas - Mugs</h3> 
-           </article> <!--divs que contienen una imagen genereal de los links de las ventas que tendra la pagina-->
-            
-             <article class="article padding">
-             
-              <figure class="center padding">
-                   <a href="views/categorias/Imanes_Magnets/producto_imanes_magnets.php" class="imanmagnets image_article_d"></a>
-              </figure><!--aqui ira la imagen de los tipos de articulos de articulos-->
-                  <h3 class=" description">Imanes - Magnets</h3> 
-           </article> <!--divs que contienen una imagen genereal de los links de las ventas que tendra la pagina-->
-             <article class="article padding">
-             
-                  <figure class="center padding">
-                       <a href="views/categorias/Souvenirs_Madera/producto_souvenir_madera.php" class="image_article_d"></a>
-                  </figure><!--aqui ira la imagen de los tipos de articulos-->
-                      <h3 class="description">Souvenirs en Madera</h3> 
-           </article> <!--divs que contienen una imagen genereal de los links de las ventas que tendra la pagina-->
-        
-            
-             <article class="article padding">
-             
-                  <figure class="center padding">
-                           <a href="views/categorias/Hosteleria/hosteleria.php" class="image_article_d"></a>
-                  </figure><!--aqui ira la imagen de los tipos de articulos-->
-                 
-                  <h3 class="description thelast">Hosteleria</h3> 
-           </article> <!--divs que contienen una imagen genereal de los links de las ventas que tendra la pagina-->
-           
-           
+              
            
            
            </section>

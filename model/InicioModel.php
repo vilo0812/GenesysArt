@@ -1,12 +1,19 @@
 <?php
     class InicioModel extends ModelBase{
+
+    public function sesionStart($id){
+        session_start();
+        $_SESSION['u_id']=$id;
+        $id=$_SESSION['u_id'];
+        return $id;
+    }
         /*private $conexion;
         public function registrarUsuario($nombre,$account_name,$email,$password,$recover_password){//$nombre,$account_name,$email,$password,$recover_password
             $sql="INSERT INTO `users`(`id_user`, `name`, `account_name`, `email`, `password`, `recover_password`, `id_level_user`) VALUES (null,'$nombre','$account_name','$email','$password','$recover_password',2)";
             $variable_PDOStatement=$this->conexion->prepare($sql);
             $variable_PDOStatement->execute(array());
        }
-        public function buscarUsuarioCorreo($usuario,$correo){
+        public function buscarUsuarioCorreo(        $usuario,$correo){
             $VARIABLE_SQL="SELECT * FROM `users` WHERE users.account_name = '$usuario' && users.email= '$correo'";
             $query=$this->conexion->query($VARIABLE_SQL);
             $existe=$query->rowCount();
