@@ -55,19 +55,15 @@
                <section class="formulario">
                <div class="contenedor_form">
                
-                <form action="?id=inicio" name="formulario_envio" class="mensaje_form" method="post">
+                <form action="" name="formulario_envio" class="mensaje_form" method="post">
                  <div>
                      <div class="input_group">
                          <input type="text" name="nombre" id="nombre" class="input_form" >
-                          <label for="nombre" id="labelNombre" class="label">nombre: </label>
-                     </div>
-                      <div class="input_group">
-                      <input type="apellido" name="apellido" id="apellido" class="input_form" >
-                       <label for="apellido" id="labelApellido" class="label">apellido: </label>
+                          <label for="nombre" id="labelNombre" class="label">nombre de usuario: </label>
                      </div>
                      <div class="input_group">
-                     <input type="email" name="email" id="email" class="input_form" >
-                     <label for="email" id="labelEmail"class="label">correo: </label>
+                     <input type="password" name="password" id="password" class="input_form" >
+                     <label for="password" id="labelpassword"class="label">contraseña: </label>
                      </div>
                      <div class="input_group">
                     <input type="hidden" name="articulo" id="articulo" value="taza mug">

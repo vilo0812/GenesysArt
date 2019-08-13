@@ -12,6 +12,8 @@
         
 </head>
 <body>
+<?php
+//echo $datos;?>
    <header class="header"><!--aqui hacermos la interceccion de tres cajas en columnas que contengan numero de cliente y su correo, 2da una foto de la paguina y finalmente tendra su menu de navegación-->
               <nav class="nav_header">
                  <div class="top">
@@ -19,6 +21,8 @@
                       <div class="right">
                       
                       </div><!--una caja contenedora de los datos de los contactos-->
+
+<li class="li_main"><a  class="a_main" href="?id=home">cerrar sesion</a></li><!--esta lista encierra el ancla de...-->
                   </div>
                   
               </nav><!--aqui crearemos la primera caja del header que permitira colocar numero y correo del cliente, ademas de unos iconos-->
@@ -34,6 +38,7 @@
                                   <li class="li_main"><a  class="a_main" href="">inicio</a></li><!--esta lista encierra el ancla de...-->
                                   <li class="li_main"><a  class="a_main" href="?id=productos">productos</a></li><!--esta lista encierra el ancla de...-->
 <li class="li_main"><a id="ancla"  class="a_main" href="">contactos</a></li><!--esta lista encierra el ancla de...-->
+
                          
                               </ul><!--fin lista-->
                  
@@ -50,15 +55,17 @@
         <section class="main padding">
            <div class="categorias">
                <h2>Categorias</h2>
-               <audio controls>
-               <source src="public/musica/musica.mp3">
-               </audio>
-               <video controls width="50%" height="500px">
+               <div><video controls width="50%" height="500px">
                <source src="public/video/video.mp4">
-               </video>
-               <a style="color:blue;"href="?id=home">ir a home</a>
-
-               <iframe src="public/guias/gimp.txt" name="centro" w="50" h="50"></iframe>
+               </video></div> 
+               <div>
+                <audio controls>
+                <source src="public/musica/musica.mp3">
+                </audio>
+               </div>
+                <div>
+                <iframe src="public/guias/gimp.txt" name="centro" w="50" h="50"></iframe>
+                </div>
            </div>
            <section class="articulos">
               

@@ -9,11 +9,13 @@
         public function inicio(){
             if(isset($_GET['cd'])){
                 $datos=$_GET['cd'];
-                //llama a la sesion
-                //$id=$this->sesionStart($datos);
+                session_start();
+                $datos=$_SESSION['u_id']=$datos;
                 $this->view("inicio",$datos);
             }else{
-                $this->viewDefect("inicio");
+                session_start();
+                $datos=$_SESSION['u_id'];
+                $this->view("inicio",$datos);
             }
         }
     }

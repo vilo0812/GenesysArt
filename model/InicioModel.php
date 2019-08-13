@@ -4,8 +4,9 @@
     public function sesionStart($id){
         session_start();
         $_SESSION['u_id']=$id;
-        $id=$_SESSION['u_id'];
-        return $id;
+    }
+    public function sesionFull(){
+        
     }
         /*private $conexion;
         public function registrarUsuario($nombre,$account_name,$email,$password,$recover_password){//$nombre,$account_name,$email,$password,$recover_password

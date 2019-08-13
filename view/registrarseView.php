@@ -17,7 +17,7 @@
    <header class="header"><!--aqui hacermos la interceccion de tres cajas en columnas que contengan numero de cliente y su correo, 2da una foto de la paguina y finalmente tendra su menu de navegación-->
               <nav class="nav_header">
                  <div class="top">
-                      <div class="left"><a class="logo" href="">GenesisArts</a></div><!--una caja del logo-->
+                      <div class="left"><a class="logo" href="?id=home">GenesisArts</a></div><!--una caja del logo-->
                       <div class="right">
                     
                       
