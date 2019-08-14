@@ -55,6 +55,53 @@
         <section class="main padding">
            <div class="categorias">
                <h2>Categorias</h2>
+               <section class="articulos">
+              <article class="article padding">
+             
+              <figure class="center padding">
+                   <a href="views/categorias/Arte_Religioso/producto_arte_religioso.php" class="image_article_d"></a>
+            
+              </figure><!--aqui ira la imagen de los tipos de articulos-->
+                  <h3 class="description">Arte religioso</h3> 
+           </article> <!--divs que contienen una imagen genereal de los links de las ventas que tendra la pagina-->
+           <article class="article padding">
+             
+              <figure class="center padding">
+                   <a href="views/categorias/Tazas_Mugs/producto_tazas_mugs.php" class="tazamugs image_article_d"></a>
+            
+              </figure><!--aqui ira la imagen de los tipos de articulos-->
+                  <h3 class="description">Tazas - Mugs</h3> 
+           </article> <!--divs que contienen una imagen genereal de los links de las ventas que tendra la pagina-->
+            
+             <article class="article padding">
+             
+              <figure class="center padding">
+                   <a href="views/categorias/Imanes_Magnets/producto_imanes_magnets.php" class="imanmagnets image_article_d"></a>
+              </figure><!--aqui ira la imagen de los tipos de articulos de articulos-->
+                  <h3 class=" description">Imanes - Magnets</h3> 
+           </article> <!--divs que contienen una imagen genereal de los links de las ventas que tendra la pagina-->
+             <article class="article padding">
+             
+                  <figure class="center padding">
+                       <a href="views/categorias/Souvenirs_Madera/producto_souvenir_madera.php" class="image_article_d"></a>
+                  </figure><!--aqui ira la imagen de los tipos de articulos-->
+                      <h3 class="description">Souvenirs en Madera</h3> 
+           </article> <!--divs que contienen una imagen genereal de los links de las ventas que tendra la pagina-->
+        
+            
+             <article class="article padding">
+             
+                  <figure class="center padding">
+                           <a href="views/categorias/Hosteleria/hosteleria.php" class="image_article_d"></a>
+                  </figure><!--aqui ira la imagen de los tipos de articulos-->
+                 
+                  <h3 class="description thelast">Hosteleria</h3> 
+           </article> <!--divs que contienen una imagen genereal de los links de las ventas que tendra la pagina-->
+           
+           
+           
+           
+           </section>
                <div><video controls width="50%" height="500px">
                <source src="public/video/video.mp4">
                </video></div> 
